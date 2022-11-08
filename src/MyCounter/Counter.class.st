@@ -30,7 +30,7 @@ Counter >> decrement [
 	count := count - 1
 ]
 
-{ #category : #control }
+{ #category : #API }
 Counter >> increment [
 	count := count + 1
 ]
