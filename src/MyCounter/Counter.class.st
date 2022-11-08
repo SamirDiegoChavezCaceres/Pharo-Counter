@@ -25,6 +25,11 @@ Counter >> count: myNumber [
 	count := myNumber
 ]
 
+{ #category : #API }
+Counter >> decrement [
+	count := count - 1
+]
+
 { #category : #control }
 Counter >> increment [
 	count := count + 1
