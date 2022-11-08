@@ -24,3 +24,8 @@ Counter >> count [
 Counter >> count: myNumber [
 	count := myNumber
 ]
+
+{ #category : #control }
+Counter >> increment [
+	count := count + 1
+]
