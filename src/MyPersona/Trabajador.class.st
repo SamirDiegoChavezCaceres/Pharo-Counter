@@ -13,7 +13,7 @@ Trabajador >> edad: anInteger [
 ]
 
 { #category : #accessing }
-Trabajador >> experiencia: anInteger [
+Trabajador >> experiencia: anInteger [ 
 	experiencia := anInteger.
 ]
 
